@@ -1,0 +1,42 @@
+.number {
+  display: flex;
+  width: calc(3 * 3.6rem + 2rem);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.number-bottom {
+  display: flex;
+  gap: 5.5rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+}
+.operator1 {
+  display: flex;
+  gap: 1rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.operator2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.result-input {
+  text-align: right;
+  border: none;
+  font-size: 3rem;
+  width: calc(4 * 3.6rem + 3rem);
+  padding: 1rem;
+}

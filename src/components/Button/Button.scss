@@ -1,0 +1,33 @@
+.button {
+  height: 3.6rem;
+  width: 3.6rem;
+
+  &__input {
+    border-radius: 50%;
+    background-color: #5a4c4c;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+
+    &--operator1 {
+      background-color: #e4dccf;
+      color: #1f1d1d;
+    }
+
+    &--operator2 {
+      background-color: #eb9d20;
+    }
+
+    &--number0 {
+      border-radius: 2rem;
+      width: 225%;
+    }
+
+    &--dot {
+      background-color: #5a4c4c;
+    }
+  }
+}
